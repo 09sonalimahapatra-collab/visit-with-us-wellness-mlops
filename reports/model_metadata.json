@@ -1,0 +1,58 @@
+{
+  "trained_at_utc": "2026-08-09T05:04:02.035339+00:00",
+  "model_path": "/workspace/scratch/36314d7eb4f9/visit_with_us_mlops/models/wellness_package_model.joblib",
+  "model_name": "RandomForestClassifier",
+  "best_parameters": {
+    "classifier__max_depth": null,
+    "classifier__max_features": "sqrt",
+    "classifier__min_samples_leaf": 1,
+    "classifier__n_estimators": 350
+  },
+  "cv_folds": 5,
+  "cv_scoring": "roc_auc",
+  "input_features": [
+    "Age",
+    "TypeofContact",
+    "CityTier",
+    "DurationOfPitch",
+    "Occupation",
+    "Gender",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "ProductPitched",
+    "PreferredPropertyStar",
+    "MaritalStatus",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "Designation",
+    "MonthlyIncome"
+  ],
+  "categorical_features": [
+    "TypeofContact",
+    "Occupation",
+    "Gender",
+    "ProductPitched",
+    "MaritalStatus",
+    "Designation"
+  ],
+  "numeric_features": [
+    "Age",
+    "CityTier",
+    "DurationOfPitch",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome"
+  ],
+  "training_rows": 3302,
+  "test_rows": 826,
+  "tracking_status": "file-based tracking only (MLflow is not installed in this runtime)"
+}

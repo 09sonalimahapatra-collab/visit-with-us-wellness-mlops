@@ -1,0 +1,17 @@
+{
+  "decision_threshold": 0.5,
+  "roc_auc": 0.9747,
+  "average_precision": 0.915,
+  "accuracy": 0.9128,
+  "precision": 0.9485,
+  "recall": 0.5786,
+  "f1_score": 0.7188,
+  "true_negatives": 662,
+  "false_positives": 5,
+  "false_negatives": 67,
+  "true_positives": 92,
+  "best_cv_roc_auc": 0.9541,
+  "model_name": "RandomForestClassifier",
+  "selection_metric": "roc_auc",
+  "selection_reason": "ROC-AUC measures ranking quality across thresholds for an imbalanced target."
+}

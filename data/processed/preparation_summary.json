@@ -1,0 +1,35 @@
+{
+  "rows_before_cleaning": 4128,
+  "rows_after_cleaning": 4128,
+  "duplicates_removed": 0,
+  "dropped_columns": [
+    "Unnamed: 0",
+    "CustomerID"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "training_rows": 3302,
+  "test_rows": 826,
+  "feature_columns": [
+    "Age",
+    "TypeofContact",
+    "CityTier",
+    "DurationOfPitch",
+    "Occupation",
+    "Gender",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "ProductPitched",
+    "PreferredPropertyStar",
+    "MaritalStatus",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "Designation",
+    "MonthlyIncome"
+  ],
+  "train_positive_rate": 0.1932,
+  "test_positive_rate": 0.1925
+}

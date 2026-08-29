@@ -14,23 +14,26 @@ This repository implements a reproducible MLOps workflow that identifies custome
 
 ## Repository structure
 
-```text
 visit_with_us_mlops/
-├── .github/workflows/pipeline.yml
+├── .github/
+│   └── workflows/
+│       └── pipeline.yml
 ├── app.py
 ├── data/
 │   ├── tourism.csv
-│   └── processed/                 # GitHub Actions artifact
-├── experiments/                   # Grid-search and MLflow tracking outputs
-├── models/wellness_package_model.joblib
-├── reports/                       # Registration, metrics and diagnostic outputs
+│   └── processed/                 # Saved train/test split files
+├── experiments/                   # Grid-search and tracking outputs
+├── models/
+│   └── wellness_package_model.joblib
+├── reports/                       # Registration, metrics, and diagnostic outputs
 ├── src/
 │   ├── data_registration.py
 │   ├── data_preparation.py
 │   ├── generate_eda_assets.py
 │   ├── train_model.py
 │   └── verify_quality.py
-├── tests/test_data_registration.py
+├── tests/
+│   └── test_data_registration.py
 └── requirements.txt
 ```
 
